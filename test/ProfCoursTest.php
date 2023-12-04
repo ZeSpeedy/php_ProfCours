@@ -81,6 +81,7 @@ class ProfCoursTest extends TestCase
             new Prof("Nom_prof8", "Prenom_prof8", "10/08/1982", "lieu_prof8"),      // idprof = 8       ** A SUPPRIMER **
             new Prof("Nom_prof9", "Prenom_prof9", "10/09/1982", "lieu_prof9"),      // idprof = 9
             new Prof("Nom_prof10", "Prenom_prof10", "10/10/1982", "lieu_prof10")    // idprof = 10      ** A MODIFIER **
+            new Prof("Nom_prof11", "Prenom_prof11", "10/11/1982", "lieu_prof11")
         ];
 
         self::$cours_a = [
@@ -93,6 +94,9 @@ class ProfCoursTest extends TestCase
             new Cours("Cours7", "3", 5),       // idcours = 7   ** A SUPPRIMER **
             new Cours("Cours8", "4", 5),       // idcours = 8
             new Cours("Cours9", "3", 5),        // idcours = 9   ** A MODIFIER **
+            new Cours("IoT", "10", 1),
+            new Cours("IA", "12", 3),
+            new Cours("EDL", "5", 6),
             
             /**
             *
